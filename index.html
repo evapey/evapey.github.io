@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+
+<title>Cosmic | The Moderation & Entertainment Bot For Discord</title>
+<link rel="icon"          href="favicon.png" type="image/png">
+<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
+
+<link href="css/bootstrap.css"    rel="stylesheet" type="text/css">
+<link href="css/style.css"        rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css"   rel="stylesheet" type="text/css">
+<link href="css/animate.css"      rel="stylesheet" type="text/css">
+
+<meta property="og:title"       content="Cosmic | The Moderation & Entertainment Bot For Discord">
+<meta property="og:description" content="The most unique bot in Discord">
+<meta property="og:type"        content="web.page">
+<meta name="theme-color"        content="#606060">
+
+<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #595959; 
+}
+</style>
+
+</head>
+<body>
+
+<!-- Header -->
+<div style="overflow:hidden;">
+<header class="header" id="header">
+	<div class="container">
+    	<figure class="logo animated fadeInDown delay-07s">
+        	<a href="#"><img src="img/logo.png" alt=""></a>	
+        </figure>	
+        <h1 class="animated fadeInDown delay-07s">Cosmic</h1>
+        <ul class="we-create animated fadeInUp delay-1s">
+        	<li>The Moderation & Entertainment Bot For Discord</li>
+        </ul>
+        <a class="link animated fadeInUp delay-1s" href="https://cosmicbot.xyz/invite">Invite</a>
+    </div>
+</div>
+</header>
+
+
+<!-- Navigation -->
+<nav class="main-nav-outer" id="test">
+	<div class="container">
+        <ul class="main-nav">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
+            <li><a href="https://cosmicbot.xyz/discord">Discord</a></li>
+            <li><a href="https://cosmicbot.xyz/commands">Commands</a></li>
+        </ul>
+        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+    </div>
+</nav>
+
+<!-- Main Section -->
+<section class="main-section" id="features">
+	<div class="container">
+    	<h2>Core Features</h2>
+    	<h6>The uniqueness of Cosmic.</h6>
+        <div class="row">
+        	<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+            	<br><div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-paw"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>Entertainment</h3>
+                        <p>Cosmic has a wide range of entertainment commands, ranging from kid friendly to NSFW.</p>
+                    </div>
+                </div>
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-gear"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>Moderation</h3>
+                        <p>Cosmic also has moderation commands though not as much as entertainment. It does it's job.</p>
+                    </div>
+                </div><br>
+                <div class="service-list">
+                	<div class="service-list-col1">
+                    	<i class="fa-medkit"></i>
+                    </div>
+                	<div class="service-list-col2">
+                        <h3>Having trouble?</h3>
+                        <p>Join the official Cosmic server and our Support Team will help you!</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+	</div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-logo"><a href="#header"><img src="img/footer-logo.png" alt=""></a></div>
+        <span class="copyright">Copyright &copy; 2018/2019 | <a href="https://cosmicbot.xyz/">Cosmic</a> by eva</span>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#test').scrollToFixed();
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false; 
+        });
+    });
+</script>
+
+<script>
+    wow = new WOW({
+        animateClass: 'animated',
+        offset:       100
+    });
+    wow.init();
+</script>
+
+<script type="text/javascript">
+	$(window).load(function() {		
+		$('.main-nav li a').bind('click', function(event) {
+			var $anchor = $(this);
+			
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 102
+			}, 1500,'easeInOutExpo');
+			event.preventDefault();
+		});
+	});
+</script>
+
+</body>
+</html>
