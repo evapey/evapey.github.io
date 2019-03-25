@@ -1,0 +1,129 @@
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+<title>Cosmic - 404 Not Found</title>
+<link rel="icon"          href="icons/favicon.png" type="image/png">
+<link rel="shortcut icon" href="icons/favicon.ico" type="img/x-icon">
+
+<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600'>
+
+<link href="assets/css/bootstrap.css"    rel="stylesheet" type="text/css">
+<link href="assets/css/style.css"        rel="stylesheet" type="text/css">
+<link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="assets/css/animate.css"      rel="stylesheet" type="text/css">
+
+<meta property="og:title"       content="Cosmic | 404 Not Found">
+<meta property="og:description" content="The most unique bot in Discord.">
+<meta property="og:type"        content="web.page">
+<meta name="theme-color"        content="#606060">
+
+<meta name="keywords" content="CosmicBot, Cosmic, Discord, Moderation, Mod, Entertainment, Moderator">
+<meta name="author"   content="eva">
+
+</head>
+<body class="homepage is-preload">
+<div id="page-wrapper">
+
+<!-- Header -->
+<div id="header-wrapper">
+	<div id="Header" class="container">
+
+		<!-- Navigation -->
+		<br><h1 id="logo"><a href="https://cosmicbot.xyz">Cosmic</a></h1>
+		<nav id="nav">
+			<ul>
+				<li><a href="https://cosmicbot.xyz"  class="animated fadeInDown delay-05s">Home</a></li>
+				<li><a href="https://cosmicbot.xyz/#Features"  class="animated fadeInDown delay-05s">Features</a></li>
+				<li class="break"><a href="https://cosmicbot.xyz/discord" class="animated fadeInDown delay-05s">Discord</a></li>
+				<li>
+					<a href="https://cosmicbot.xyz/docs/#Header" class="animated fadeInDown delay-05s">Documents</a>
+					<ul>
+						<li><a href="https://cosmicbot.xyz/docs/#General">General</a></li>
+						<li>
+							<a href="https://cosmicbot.xyz/docs/#Commands">Commands</a>
+							<ul>
+								<li><a href="https://cosmicbot.xyz/docs/#Commands">General</a></li>
+								<li><a href="https://cosmicbot.xyz/docs/#Moderation">Moderation</a></li>
+								<li><a href="https://cosmicbot.xyz/docs/#Administrator">Administrator</a></li>
+								<li><a href="https://cosmicbot.xyz/docs/#Entertainment">Entertainment</a></li>
+								<li><a href="https://cosmicbot.xyz/docs/#Ticket">Ticket</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<!--Page Content -->
+<div class="wrapper">
+    <div class="container" id="main">
+        <article id="content">
+            <header>
+                <h2>Page not found</h2>
+                <p>The requested page is currently unavailable or does not exist on our server.</p>
+            </header>
+        </article>
+    </div>
+</div>
+
+<!-- Footer -->
+<div id="copyright" class="container">
+	<ul class="menu">
+		<li>Copyright <a href="https://cosmicbot.xyz">Cosmic</a> &copy; 2018/2019. All rights reserved.</li>
+		<li><a href="https://cosmicbot.xyz/terms">Terms & Conditions</a></li>
+	</ul>
+</div>
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/bootstrap.js"  type="text/javascript"></script>
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.dropotron.min.js" type="text/javascript"></script>
+<script src="assets/js/browser.min.js" 			type="text/javascript"></script>
+<script src="assets/js/breakpoints.min.js" 		type="text/javascript"></script>
+<script src="assets/js/wow.js"  type="text/javascript"></script>
+<script src="assets/js/util.js" type="text/javascript"></script>
+<script src="assets/js/main.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(e) {
+		$('#test').scrollToFixed();
+		$('.res-nav_click').click(function(){
+			$('.main-nav').slideToggle();
+			return false;
+		});
+	});
+</script>
+
+<script>
+	wow = new WOW({
+		animateClass: 'animated',
+		offset:       100
+	});
+	wow.init();
+</script>
+
+<script type="text/javascript">
+	$(window).load(function() {
+		$('.main-nav li a').bind('click', function(event) {
+			var $anchor = $(this);
+
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 102
+			}, 1500,'easeInOutExpo');
+			event.preventDefault();
+		});
+	});
+</script>
+
+</body>
+</html>
