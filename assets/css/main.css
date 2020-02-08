@@ -422,6 +422,13 @@
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
 		}
+		
+		#header h2 {
+			font-size: 1.25em;
+			margin: 0.75em 0 0.25em 0;
+			opacity: 0.75;
+			text-transform: lowercase;
+		}
 
 
 
@@ -838,6 +845,10 @@
 		}
 
 		#header p {
+			font-size: 1em;
+		}
+		
+		#header h2 {
 			font-size: 1em;
 		}
 
