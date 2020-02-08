@@ -43,9 +43,9 @@
  * import
  * --------------------------------------------------
  */
-@import url("http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic");
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic");
-@import url("http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic");
 /**
  * reset
  * --------------------------------------------------
@@ -1096,19 +1096,19 @@ i {
 }
 
 .is-each.home-in .site-bg__img {
-  background-image: url(http://s4mur41.pw/assets/img/bg/home.html);
+  background-image: url(https://s4mur41.pw/assets/img/bg/home.html);
 }
 
 .is-each.about-in .site-bg__img {
-  background-image: url(http://s4mur41.pw/assets/img/bg/about.html);
+  background-image: url(https://s4mur41.pw/assets/img/bg/about.html);
 }
 
 .is-each.service-in .site-bg__img {
-  background-image: url(http://s4mur41.pw/assets/img/bg/service.html);
+  background-image: url(https://s4mur41.pw/assets/img/bg/service.html);
 }
 
 .is-each.contact-in .site-bg__img {
-  background-image: url(http://s4mur41.pw/assets/img/bg/contact.html);
+  background-image: url(https://s4mur41.pw/assets/img/bg/contact.html);
 }
 
 .is-site-bg-video .site-bg__video,
@@ -1165,15 +1165,15 @@ i {
 
 /* cloud */
 .cloud-01 {
-  background-image: url(http://s4mur41.pw/assets/img/bg/cloud-01.html);
+  background-image: url(https://s4mur41.pw/assets/img/bg/cloud-01.html);
 }
 
 .cloud-02 {
-  background-image: url(http://s4mur41.pw/assets/img/bg/cloud-02.html);
+  background-image: url(https://s4mur41.pw/assets/img/bg/cloud-02.html);
 }
 
 .cloud-03 {
-  background-image: url(http://s4mur41.pw/assets/img/bg/cloud-03.html);
+  background-image: url(https://s4mur41.pw/assets/img/bg/cloud-03.html);
 }
 
 /* parallax star */
