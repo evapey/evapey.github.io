@@ -7,7 +7,7 @@
 // --------------------------------------------------
 //
 
-var _countdown =                        true; // [true, false] - countdown toggle
+var _countdown =                        false; // [true, false] - countdown toggle
 var _countdown_date =                   [2020, 02, 03]; // 2016[year] - 12[month] - 1[day]
 var _countdown_gmt =                    true; // [true, false] - gmt time
 
@@ -84,6 +84,7 @@ var _cloud_opacity =                    1; // [0.1 to 1] - cloud opacity
 //
 
 var _parallax_star_opacity =            1; // [0.1 to 1] - parallax star opacity
+
 
 //
 // if _bg_effect == 3 (star)

@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url("font-awesome.min.css");
 
 /*
@@ -19,26 +20,20 @@
 	}
 
 
-
-
-    #video {
-
+video {
     position: fixed;
-
-    top: -5%;
-
-    left: 0;
-
-    z-index: -1000;
-
+    top: 50%;
+    left: 50%;
     min-width: 100%;
-
     min-height: 100%;
-
-    width: 1920;
-
-    height: 1080;
-
+    width: 1300px;
+    height: 1300px;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+    overflow: hidden;
+    filter: brightness(0.5);
 }
 
 
@@ -86,7 +81,7 @@
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Poiret One', cursive;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
@@ -156,7 +151,7 @@
 }
 
 #text {
-  font-family: "Kanit";
+  font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   font-weight: 900;
   font-style: italic;
