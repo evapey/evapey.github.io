@@ -25,7 +25,7 @@ var _site_border =                      true; // [true, false] - border toggle
 //
 
 // for desktop
-var _bg_style_desktop =                 13;
+var _bg_style_desktop =                 3;
                                            // 1 = each image at each section
                                            // 2 = each image at each section (mp3 audio)
                                            // 3 = image
@@ -42,7 +42,7 @@ var _bg_style_desktop =                 13;
                                            // 14 = youtube video (mp3 audio)
 
 // for mobile
-var _bg_style_mobile =                  4;
+var _bg_style_mobile =                  3;
                                            // 1 = each image at each section
                                            // 2 = each image at each section (mp3 audio)
                                            // 3 = image
@@ -56,13 +56,6 @@ var _bg_style_mobile =                  4;
 var _bg_slideshow_image_amount =        2; // slideshow image amount
 var _bg_slideshow_duration =            9000; // millisecond
 
-// if _bg_style == 10 - 12 (youtube video)
-var _bg_video_youtube_url =             '2YcJ8Wightw'; // youtube video url id - https://www.youtube.com/watch?v=bWHR0fS9jvQ
-
-var _bg_video_youtube_quality =         'hightres'; // hightres, hd1080, hd720, default - youtube video quality
-var _bg_video_youtube_start =           0; // seconds - video start time
-var _bg_video_youtube_end =             0; // seconds - video end time, 0 to ignored
-var _bg_video_youtube_loop =            true; // true, false - video loop
 
 //
 // background effect (cloud / star)

@@ -45,6 +45,7 @@
 
 				var video = document.currentScript.parentElement;
 				video.volume = 0.35;
+				
 
 				var videoContainer = document.getElementById('videoContainer'),
 					output = document.getElementById('output'),
@@ -87,6 +88,8 @@
 
 					video.onplaying = function(e)
 					{
+						
+						
 
 
 						//select next index. If is equal vidSources.length then it is 0
@@ -109,6 +112,7 @@
 						nextVideo.play();
 					};
 					video.volume = 0.35;
+					
 				}
 			</script>
 
