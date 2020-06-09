@@ -33,7 +33,7 @@ video {
     background-size: cover;
     transition: 1s opacity;
     overflow: hidden;
-    filter: brightness(0.5);
+    filter: brightness(0.75);
 }
 
 
