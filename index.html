@@ -39,12 +39,11 @@
 
 
 		 <div id="videoContainer" style="display:inline-block"></div>
-		 <b id="output" style="vertical-align:top"></b>
+		 <b style="font-family: 'Poiret One', regular;" id="output" style="vertical-align:top"></b>
 
 			<script>
 
 				var video = document.currentScript.parentElement;
-				video.volume = 0.35;
 				
 
 				var videoContainer = document.getElementById('videoContainer'),
@@ -146,11 +145,14 @@
 						<center>
 							<div style="font-family: 'Poiret One', regular;" class="animated fadeInUp">
 								<p><font size="4">biteki / びてき</font></p>
+								
 							</div>
+							
 						</center>
 
                     </header>
                 </div>
+				<div style="font-family: 'Poiret One', regular;" id="fade"><p><font size="4"><p><font size="3">‎ ‎If you don't see the background video, enable sound and javascript in the site settings</font></p></div>
             </div>
         </div>
         <script type='text/javascript'>
@@ -166,6 +168,22 @@
             }
             scrolltitle();
         </script>
+		
+		<script>
+		setTimeout(function() { // start a delay
+		var fade = document.getElementById("fade"); // get required element
+		fade.style.opacity = 1; // set opacity for the element to 1
+		var timerId = setInterval(function() { // start interval loop
+			var opacity = fade.style.opacity; // get current opacity
+			if (opacity == 0) { // check if its 0 yet
+			clearInterval(timerId); // if so, exit from interval loop
+			} else {
+			fade.style.opacity = opacity - 0.05; // else remove 0.1 from opacity
+			}
+		}, 150); // run every 0.1 second
+		}, 5000); // wait to run after 5 seconds
+		</script>
+		
 	</body>
 </head>
 </html>
