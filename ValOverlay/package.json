@@ -1,6 +1,6 @@
 {
   "name": "valoverlay",
-  "version": "3",
+  "version": "0.0.4",
   "description": "Valorant overlay that reveals ranks, names and other competitive stats of all players aswell as what party they're in, no matter the gamemode. It also includes Discord RPC Status with all the details and settings where you can toggle anything",
   "main": "main.js",
   "keywords": [
