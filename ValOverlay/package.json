@@ -1,0 +1,47 @@
+{
+  "name": "valoverlay",
+  "version": "3",
+  "description": "Valorant overlay that reveals ranks, names and other competitive stats of all players aswell as what party they're in, no matter the gamemode. It also includes Discord RPC Status with all the details and settings where you can toggle anything",
+  "main": "main.js",
+  "keywords": [
+    "valorant",
+    "overlay",
+    "valoverlay",
+    "discord",
+    "rpc",
+    "status",
+    "evapey"
+  ],
+  "author": "evapey",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/remote": "^2.0.1",
+    "discord-rpc": "^4.0.1",
+    "node-fetch": "^2.6.0",
+    "nodejs-base64": "^2.0.0"
+  },
+  "devDependencies": {
+    "electron": "^10.4.7",
+    "electron-builder": "^22.13.1"
+  },
+  "scripts": {
+    "build": "electron-builder build"
+  },
+  "build": {
+    "appId": "valoverlay",
+    "productName": "ValOverlay",
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "icon": "logo.ico"
+    },
+    "nsis": {
+      "oneClick": true,
+      "installerIcon": "logo.ico",
+      "uninstallerIcon": "logo.ico",
+      "uninstallDisplayName": "ValOverlay Uninstaller",
+      "allowToChangeInstallationDirectory": false
+    }
+  }
+}
