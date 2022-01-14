@@ -28,10 +28,9 @@
         ["viper1", "Viper1"]
     ],
     "links":[
-        ["github","https://github.com/Zimehx/Valoxpi"],
-        ["twitter", "https://twitter.com/zimehx"],
-        ["youtube", "https://www.youtube.com/channel/UCzQLS2sTAPAYH7qyj0FXP3w"],
-        ["discord", "https://zimehx.github.io/Valoxpi/source/discord.html"]
+        ["github","https://github.com/evapey"],
+        ["twitter", "https://twitter.com/igntohkyo"],
+        ["discord", "https://evapey.wtf"]
     ],
     "parties": ["#ff6161","#ffd061","#61ffdf","#3bff6f","#ff618b","#5468ff","#ed61ff","#ffd6d6"],
     "ranks": [
