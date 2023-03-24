@@ -1,4 +1,4 @@
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80 
 RewriteCond %{REQUEST_URI} folder 
-RewriteRule ^(.*)$ https://evapey.club/$1 [R,L]
+RewriteRule ^(.*)$ https://evapey.boo/$1 [R,L]
